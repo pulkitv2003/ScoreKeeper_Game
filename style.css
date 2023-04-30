@@ -1,0 +1,28 @@
+#button1{
+    background-color: rgb(4, 199, 27);
+    text-align: center;
+    padding: 10px;
+}
+#button2{
+    background-color: rgb(82, 82, 249);
+    text-align: center;
+    padding: 10px;
+}
+#button3{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    text-align: center;
+}
+img{
+    height: 250px;
+    width: 300px;
+}
+.winner{
+    color: greenyellow;
+}
+.looser{
+    color: rgb(170, 17, 17);
+}

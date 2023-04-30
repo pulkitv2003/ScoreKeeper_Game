@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <figure class = "image is-2by2">
+                    <img src="https://img.freepik.com/free-vector/people-playing-table-tennis_23-2148662482.jpg" alt="">
+                </figure>
+                <h2>Ping Pong Score Keeper</h2>
+                <h2 class="title is-1"><span id ="score1">0</span> to <span id ="score2">0</span></h2>
+                <p class="subtitle">Use The Button Below To Keep Score </p>
+                <label for="select" class="label is-large is-inline">Playing To</label>
+                <div class="select is-rounded">
+                <select name="" id="select">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select> 
+                </div>
+                <footer class="card-footer">
+                <button id = "button1" class="is-primary button card-footer-item is-large">+1 Player One</button>
+                <button id = "button2" class="is-info button card-footer-item is-large">+1 Player Two</button>
+                <button id = "button3" class="is-danger button card-footer-item is-large">Reset</button>
+                </footer>
+                   
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    </section>
+</body>
+</html>
